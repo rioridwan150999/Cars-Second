@@ -20,7 +20,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalDeskripsi').innerHTML = deskripsi;
         document.querySelector('.modalHarga').innerHTML = harga;
 
-        const nohp = '62857123123';
+        const nohp = '6285156155608';
         let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo Pak, Saya mau lebih detail spesifikasi unit ini ${gambar}`;
 
         document.querySelector('.btnBeli').href = pesan;
